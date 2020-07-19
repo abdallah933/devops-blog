@@ -15,4 +15,9 @@ install:
   GitHub_token: $GITHUB_TOKEN
   local_dir: public
   on:
-    branch: maste
+    branch: master
+    
+    Copy
+git add .travis.yml
+git commit -m "travis file added"
+git push origin master
